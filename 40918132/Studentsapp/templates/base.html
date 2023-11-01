@@ -1,0 +1,18 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+        <title>CY-Shop</title>
+        {% endblock %}
+        {% block css %}
+        <style>
+            th {background-color: lightblue;}
+            tr {background-color: lightpink;}
+        </style>
+        {% endblock %}
+    </head>
+    <body>
+        {% block content %} {% endblock %}
+    </body>
+</html>
